@@ -1,0 +1,42 @@
+
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+ <div class="siteUrls w-75  m-auto  px-3 mt-3">
+    <label for="webName" class="lable" >site name</label>
+    <input type="text" id="webName" class="form-control" name="sitenmae">
+    <label for="siteUrl" class="lable" >site URL</label>
+    <input type="text" id="siteUrl" class="form-control" name="site url">
+    <button  class="btn btn-primary m-lg-5 mt-2  " id="btnSubmit">ADD New Link</button>
+    <div class="hr mb-5"></div>
+    <!-- ====================== links ============================ -->
+    <table class="table  text-white">
+      <thead>
+        <th> #index</th>
+        <th>Site Name</th>
+        <th>Visite</th>
+        <th>Delete</th>
+    
+     </thead>
+      <tbody id="url">
+      
+      </tbody>
+    </table>
+
+    <div  class="results mt-5 px-4 d-flex justify-content-between flex-wrap">
+
+    </div>
+ </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
